@@ -12,8 +12,8 @@ BASELINELAYPA=1
 REGIONLAYPA=0
 
 # Set the path to the yaml file and the pth file for the Laypa baseline model. Not required if BASELINELAYPA is 0
-LAYPABASELINEMODEL=INSERT_FULL_PATH_TO_YAML_HERE
-LAYPABASELINEMODELWEIGHTS=INSERT_FULL_PATH_TO_PTH_HERE
+LAYPABASELINEMODEL=/home/eric/code/loghi/models/laypa-baseline/baseline2/config.yaml
+LAYPABASELINEMODELWEIGHTS=/home/eric/code/loghi/models/laypa-baseline/baseline2/model_best_mIoU.pth
 
 # Set the path to the yaml file and the pth file for the Laypa region model. Not required if REGIONLAYPA is 0
 LAYPAREGIONMODEL=INSERT_FULL_PATH_TO_YAML_HERE
@@ -22,7 +22,7 @@ LAYPAREGIONMODELWEIGHTS=INSERT_FULL_PATH_TO_PTH_HERE
 # Set to 1 if you want to enable the HTR step, 0 otherwise
 HTRLOGHI=1
 # Set the path to the htr model. Not required if HTRLOGHI is 0
-HTRLOGHIMODEL=INSERT_FULL_PATH_TO_LOGHI_HTR_MODEL_HERE
+HTRLOGHIMODEL=/home/eric/code/loghi/models/loghi-htr-generic/generic-2023-02-15
 
 # Set this to 1 for recalculating reading order, line clustering and cleaning.
 # WARNING this will remove regions found by Laypa
